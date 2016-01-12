@@ -1,0 +1,39 @@
+{
+  "name": "react-markdown-editor",
+  "version": "0.0.3",
+  "description": "Simple markdown editor",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base build/ --port 8080",
+    "build": "NODE_ENV=production webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/koteus/react-markdown-editor.git"
+  },
+  "keywords": [
+    "markdown",
+    "editor",
+    "react"
+  ],
+  "author": "Konstantin Kalbazov <kalbazov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koteus/react-markdown-editor/issues"
+  },
+  "homepage": "https://github.com/koteus/react-markdown-editor#readme",
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "json-loader": "^0.5.4",
+    "lodash.debounce": "^3.1.1",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-markdown": "^1.2.2"
+  }
+}
